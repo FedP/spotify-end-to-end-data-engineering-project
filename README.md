@@ -9,7 +9,9 @@ This project is an end-to-end **ETL data pipeline on AWS**, built with Python an
 
 The pipeline extracts data from the Spotify API, stores it in Amazon S3, transforms it into a cleaner analytics-ready format, and makes it queryable with SQL using AWS Glue and Amazon Athena.
 
----
+## 🏗️ ETL Pipeline Architecture
+
+![ETL Pipeline Workflow](./CourseSchema.png)
 
 ## 🔹 Step 1 — Extract data from Spotify API
 
